@@ -20,9 +20,50 @@ Build a 4-class news text classification system using a pre-trained transformer 
 - Tokenize using `DistilBERT tokenizer`
 - Fine-tune the model on text classification task
 - Evaluate using accuracy, classification report
+✅ Task 2: Churn Prediction Using ML Pipeline
+Objective:
+Use traditional ML to predict customer churn based on the Telco dataset.
 
-### 🚀 How to Run:
-```bash
-# Upload dataset.csv file (with 'text' and 'label' columns)
-# Then run: 
-python task1_news_classification.py
+Tools:
+
+Pandas, NumPy
+
+Scikit-learn
+
+Steps:
+
+Load data from IBM’s Telco dataset.
+
+Drop customerID, handle missing values.
+
+Encode categorical columns with OneHotEncoder.
+
+Scale numeric features.
+
+Train RandomForestClassifier inside a pipeline.
+
+Evaluate with confusion matrix and accuracy.
+
+✅ Task 3: Multimodal Classification (Image + Tabular)
+Objective:
+Train a model that uses both image features and tabular data for binary classification.
+
+Tools:
+
+PyTorch
+
+Torchvision (ResNet18)
+
+Pandas, PIL
+
+Steps:
+
+Generate synthetic images and tabular CSV.
+
+Use ResNet18 to extract image features.
+
+Combine image + tabular features.
+
+Define a neural network model.
+
+Train the model and evaluate on dummy data.
