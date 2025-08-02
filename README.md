@@ -20,6 +20,7 @@ Build a 4-class news text classification system using a pre-trained transformer 
 - Tokenize using `DistilBERT tokenizer`
 - Fine-tune the model on text classification task
 - Evaluate using accuracy, classification report
+  
 ✅ Task 2: Churn Prediction Using ML Pipeline
 Objective:
 Use traditional ML to predict customer churn based on the Telco dataset.
